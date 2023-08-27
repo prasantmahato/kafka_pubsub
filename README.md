@@ -14,6 +14,19 @@ cd kafka_pubsub
 yarn install
 ```
 
+- Get your PRIVATE_IP using
+
+```bash
+ifconfig
+```
+or
+```bash
+ipconfig
+```
+
+- ### Update client.js with your <private_ip>
+
+
 - ### Start zookeeper and expose port 2181
 
 ```bash
